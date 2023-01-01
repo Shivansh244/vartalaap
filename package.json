@@ -1,0 +1,18 @@
+{
+  "name": "vartalaap",
+  "version": "1.0.0",
+  "description": "New age social media app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "social"
+  ],
+  "author": "Shivansh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
