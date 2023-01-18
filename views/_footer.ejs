@@ -1,3 +1,23 @@
-<footer>
-    Page FOOTER
+<footer class="flex-footer">
+    @ VARTALAAP LTD.
+
+    <div>
+        <% if(locals.user){ %>
+            <div class="profile">
+                <a href="/users/profile">
+                    <%= user.name %>
+                </a>
+            <div/>
+            <div class="sign-out">
+                <a href="/users/sign-out">Sign Out</a>
+            <div/>
+        <% } else { %>
+            <div>
+                <a href="/users/sign-in">Sign In</a>
+            </div>
+            <div>
+                <a href="/users/sign-up">Sign Up</a>
+            </div>
+        <% } %>
+    </div>
 </footer>

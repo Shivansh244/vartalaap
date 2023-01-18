@@ -1,0 +1,15 @@
+.flex-container {
+  display: flex;
+  border: 2px solid lightblue;
+  background: lightblue;
+  justify-content: end;
+  font-family: sans-serif; }
+
+.heading {
+  display: flex;
+  color: blueviolet;
+  margin-right: auto;
+  font-size: 20px; }
+
+a:link {
+  text-decoration: none; }
